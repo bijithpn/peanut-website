@@ -114,8 +114,11 @@ const Hero = ({
           <motion.h1
             variants={itemVariants}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
           >
-            {title}
+            <span className="text-gradient">{title}</span>
           </motion.h1>
 
           {/* Subtitle */}

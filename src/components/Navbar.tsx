@@ -81,7 +81,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
             </svg>
           </div>
           <span className="text-xl font-semibold text-gray-900">
-            Premium Nuts
+            Jaanaki Jaane
           </span>
         </motion.div>
 
